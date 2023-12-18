@@ -39,13 +39,13 @@ function App () {
   function onTap () {
     setYTReady(true)
     if (timer) clearTimeout(timer)
-    timer = setTimeout(next, 1500)
+    timer = setTimeout(next, 2000)
   }
 
 
   onMount(next)
 
-  return (
+  return (<>
 
     <Container>
 
@@ -60,6 +60,7 @@ function App () {
           <Show when={ytready()}>
             <p>Try to stay on the "Cake" experience, by clicking on Tap</p>
             <p>Imagine if this was the rest of your life.</p>
+
           </Show>
         </Box>
         <Box>
@@ -73,9 +74,11 @@ function App () {
           </For>
         </Box>
 
+        <i style={"font-size:.5em; position:fixed; bottom:1em; right:5em; color:gray"}><a href="https://linkedin.com/in/chadsteele">by Chad Steele</a></i>
+
       </Paper>
     </Container>
-
+  </>
   )
 }
 

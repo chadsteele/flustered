@@ -1,5 +1,4 @@
-import $ from 'jQuery'
-
+const $ = jQuery
 
 import { onMount } from 'solid-js'
 

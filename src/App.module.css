@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+
+
+
+iframe {
+  width: 80%;
+  aspect-ratio: 16 / 9;
+  display: inline;
+  pointer-events: none;
+}

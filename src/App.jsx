@@ -14,6 +14,7 @@ const playlist = [
   "https://www.youtube.com/watch?v=VWmNcRO9tgk",
   "https://www.youtube.com/embed/DsrxbqFo41k",
   "https://www.youtube.com/watch?v=jlpzAvQ8t8s",
+  "https://www.youtube.com/watch?v=YCN4t584SxE",
   "https://www.youtube.com/watch?v=8-5yLt1gqIo&t=11s",
   "https://www.youtube.com/watch?app=desktop&v=dY_81IszoFk",
   "https://www.youtube.com/watch?v=7KPK5sMar5w"

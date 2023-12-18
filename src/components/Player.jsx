@@ -44,7 +44,7 @@ export default function Player (props) {
             if (ready) player?.setVolume(100);
         } else {
             ref.style.display = 'none'
-            if (ready) player?.setVolume(5);
+            if (ready) player?.setVolume(10);
         }
     })
 
